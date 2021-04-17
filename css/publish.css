@@ -1,0 +1,167 @@
+.publish {
+  padding-top: 91px;
+  min-height: 766px;
+  background: url('../img/birmingham-museums-trust-MK_98NuC4-4-unsplash-4.jpg') no-repeat;
+  color: var(--invert-font-color);
+}
+
+.publish-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.publish-heading {
+  margin-bottom: 31px;
+  color: var(--invert-font-color);
+}
+
+.publish__category {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 42px;
+  max-width: 410px;
+}
+
+.category__title {
+  margin-top: 0;
+  margin-bottom: 17px;
+  letter-spacing: .3px;
+}
+
+.category__label {
+  cursor: pointer;
+  position: relative;
+  padding-left: 25px;
+  color: white;
+}
+
+.category__label:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.category__checkbox {
+  display: none;
+}
+
+.category__checkbox~.custom-checkbox {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  border: 1px solid var(--invert-font-color);
+}
+
+.category__checkbox~.custom-checkbox:before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  background-image: url("data:image/svg+xml,%3Csvg width='4' height='4' viewBox='0 0 4 4' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='2' cy='2' r='2' fill='%23C283F3'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: 3px 3px;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+}
+
+.category__checkbox:checked~.custom-checkbox:before {
+  opacity: 1;
+}
+
+.category__checkbox:checked~.custom-checkbox{
+  border-color: var(--hover-purple-color);
+}
+
+.category__checkbox:checked~.checkbox-name {
+  color: var(--hover-purple-color);
+}
+
+.price-heading {
+  margin-bottom: 18px;
+}
+
+.price-range {
+  padding-left: 19px;
+  padding-right: 16px;
+  max-width: 340px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 6px;
+}
+
+.start-price-text {
+  padding-right: 5px;
+}
+
+.final-price-text {
+  padding-left: 8px;
+  padding-right: 6px;
+}
+
+.value-price-text {
+  padding-left: 7px;
+}
+
+
+.price-number {
+  width: 82px;
+  height: 100%;
+  background: rgba(157, 92, 208, 0.5);
+  border: none;
+}
+
+.right-column {
+  position: relative;
+}
+
+.publish__right-column {
+  padding-top: 8px;
+}
+
+.publish-swiper-container {
+  width: 100%;
+}
+
+.publish__cover {
+  margin-bottom: 24px;
+}
+
+.book__desc {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.book__name {
+  display: flex;
+  flex-direction: column;
+}
+
+.publish__title {
+  display: inline-block;
+  white-space: nowrap;
+  max-width: 240px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 6px;
+  font-weight: 700;
+  letter-spacing: .5px;
+}
+
+.purchase-book-btn {
+  display: block;
+  background-color: transparent;
+  padding: 10px 22px;
+  color: var(--invert-font-color);
+  font-weight: 700;
+  border: 2px solid var(--purple-color);
+  border-radius: 100px;
+}
+
+.purchase-book-btn:hover {
+  background-color: var(--purple-color);
+}
+
+.purchase-book-btn:active {
+  background-color: var(--active-purple-color);
+}

@@ -1,0 +1,13 @@
+.about-us {
+    padding-top: 90px;
+    padding-bottom: 70px;
+    min-height: 365px;
+    background-color: var(--invert-font-color);
+}
+
+.about-us__text {
+    max-width: 1090px;
+    padding-right: 15px;
+    font-size: 16px;
+    line-height: 32px;
+}

@@ -1,0 +1,11 @@
+:root {
+  --main-font-color: #333333;
+  --invert-font-color: #ffffff;
+  --light-font-color: #999999;
+  --purple-color: #9D5CD0;
+  --hover-purple-color: #C283F3;
+  --active-purple-color: #7943A4;
+  --dark-gray: #666666;
+  --light-gray: #CACACA;
+  --dark-bg: #000000;
+}

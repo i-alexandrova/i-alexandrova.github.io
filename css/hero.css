@@ -1,0 +1,54 @@
+.hero {
+  min-height: 700px;
+  padding-top: 142px;
+  background: url('../img/birmingham-museums-trust-MK_98NuC4-4-unsplash2.jpg') no-repeat center -100px;
+}
+
+.hero-container {
+  width: 580px;
+  color: var(--invert-font-color);
+}
+
+.hero-heading {
+  margin-bottom: 19px;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 83px;
+  letter-spacing: 1.1px;
+}
+
+.hero-text {
+  margin-bottom: 91px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+}
+
+.subscribe-btn {
+  padding: 26px 35px;
+  background-color: var(--purple-color);
+  border-radius: 100px;
+  border: none;
+  color: var(--invert-font-color);
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: .4px;
+}
+
+.subscribe-btn:hover {
+  box-shadow: 0 0 0 3px #D1A9F0;
+}
+
+.subscribe-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--active-purple-color);
+}
+
+.subscribe-btn:active {
+  background-color: var(--active-purple-color);
+  box-shadow: 0 0 0 3px #D1A9F0;
+}
+
+

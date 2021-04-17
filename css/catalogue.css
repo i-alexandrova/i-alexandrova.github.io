@@ -1,0 +1,190 @@
+.catalogue {
+  padding-top: 90px;
+  padding-bottom: 8px;
+}
+
+.catalogue__heading-tab {
+  display: flex;
+}
+
+.catalogue__nav {
+  display: flex;
+  justify-content: space-between;
+  width: 430px;
+  margin-left: 43px;
+}
+
+.catalogue__nav-btn {
+  position: relative;
+  height: 46px;
+  width: 46px;
+  border: none;
+  background-color: transparent;
+  background-size: contain;
+}
+
+.catalogue__nav-btn-is-active::after {
+  position: absolute;
+  content: '';
+  height: 66px;
+  width: 66px;
+  top: -8px;
+  left: -10px;
+  background-image: url("data:image/svg+xml,%3Csvg width='66' height='66' viewBox='0 0 66 66' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='33' cy='33' r='32' stroke='%239D5CD0' stroke-width='2'/%3E%3C/svg%3E%0A");
+}
+
+.france-btn {
+  background-image: url('../img/france.png');
+}
+
+.germany-btn {
+  background-image: url('../img/germany.png');
+}
+
+.italy-btn {
+  background-image: url('../img/italy.png');
+}
+
+.russia-btn {
+  background-image: url('../img/russia.png');
+}
+
+.belgium-btn {
+  background-image: url('../img/belgium.png');
+}
+
+.catalogue__nav-btn:hover {
+  box-shadow: 0px 0px 20px rgba(157, 92, 208, 0.7);
+  border-radius: 29px;
+}
+
+.catalogue__nav-btn:active {
+  box-shadow: 0 0 0 3px #D1A9F0;
+  outline: none;
+}
+
+
+
+.artists__accordion-tabs{
+  display: flex;
+  justify-content: space-between;
+}
+
+.country__text {
+  margin-bottom: 40px;
+  max-width: 1080px;
+  line-height: 32px;
+}
+
+.country__artists-container {
+  display: none;
+}
+
+.country__artists-container-is-active {
+  display: block;
+}
+
+.artist-item {
+  display: none;
+  position: relative;
+  padding-top: 468px;
+  width: calc(50% - 45px);
+}
+
+.artist-item-is-active {
+  display: block;
+}
+
+.artist__name {
+  margin-bottom: 10px;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: -1.3px;
+}
+
+.artist__name::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url('../img/Girlandallo.jpg');
+}
+
+.artist__dates {
+  font-size: 12px;
+  color: var(--light-font-color);
+}
+
+.artist__text {
+  margin-top: 8px;
+  line-height: 32px;
+}
+
+.artists_centuries-accordion {
+  width: 50%;
+}
+
+.accordion__content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* justify-content: left; */
+  height: 342px;
+}
+
+.accordion__title {
+  position: relative;
+}
+
+.accordion__title:hover {
+  color: var(--purple-color);
+}
+
+.accordion__title::after {
+  position: absolute;
+  content: '';
+  right: 0;
+  top: 31px;
+  width: 50px;
+  height: 50px;
+  background-image: url("data:image/svg+xml,%3Csvg width='50' height='50' viewBox='0 0 50 50' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z' fill='%23ECECEC'/%3E%3Cpath d='M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z' stroke='none'/%3E%3Cpath d='M33.3333 23.3333L25 31.6667L16.6667 23.3333' stroke='black'/%3E%3C/svg%3E%0A");
+}
+
+.accordion__title:hover:after {
+  background-image: url("data:image/svg+xml,%3Csvg width='50' height='50' viewBox='0 0 50 50' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z' fill='%239D5CD0'/%3E%3Cpath d='M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z' stroke='none'/%3E%3Cpath d='M33.3333 23.3333L25 31.6667L16.6667 23.3333' stroke='white'/%3E%3C/svg%3E%0A");
+}
+
+.accordion__title:active:after {
+  background-image: url("data:image/svg+xml,%3Csvg width='50' height='50' viewBox='0 0 50 50' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.00001 25C1.00001 11.7452 11.7452 1.00001 25 1.00001C38.2548 1.00001 49 11.7452 49 25C49 38.2548 38.2548 49 25 49C11.7452 49 1 38.2548 1.00001 25Z' fill='%237943A4' stroke='%23D1A9F0' stroke-width='2'/%3E%3Cpath d='M33.3333 22.6667L25 31L16.6667 22.6667' stroke='white'/%3E%3C/svg%3E%0A");
+}
+
+.accordion__title.ui-state-active::after {
+  transform: rotate(180deg);
+}
+
+.artist__accordion-link {
+  width: 208px;
+  text-align: left;
+  padding: 6px 10px 6px 0px;
+  letter-spacing: .3px;
+  background-color: transparent;
+  border: none;
+  color: var(--main-font-color);
+}
+
+.artist__accordion-link-is-active {
+  color: var(--active-purple-color);
+  font-weight: 600;
+}
+
+.artist__accordion-link:hover {
+  color: var(--purple-color);
+  text-decoration: underline;
+}
+
+.artist__accordion-link:active {
+  color: var(--active-purple-color);
+}

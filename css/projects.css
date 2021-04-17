@@ -1,0 +1,129 @@
+.projects {
+  padding-top: 90px;
+  padding-bottom: 86px;
+}
+
+.projects_desc {
+  max-width: 1080px;
+  line-height: 2;
+}
+
+.projects-more-link {
+  color: var(--purple-color);
+}
+
+.projects-more-link:hover {
+  color: var(--purple-color);
+  text-decoration: underline;
+}
+  
+.projects-more-link:active {
+  color: var(--active-purple-color);
+}
+
+.tooltip-link {
+  display: inline-block;
+  position: relative;
+  margin-left: 5px;
+  margin-right: 4px;
+  height: 16px;
+  width: 16px;
+  background-image: url('../img/tooltip.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-color: transparent;
+  transform: translateY(3px);
+}
+  
+.tooltip {
+  display: none;
+  position: absolute;
+  margin-left: -130px;
+  margin-bottom: 5px;
+  padding: 10px 3px;
+  width: 265px;
+  bottom: 100%;
+  left: 50%;
+  text-align: center;
+  font-size: 12px;
+  line-height: 16px;
+}
+  
+.tooltip-link:hover .tooltip {
+  display: inline;
+  background: var(--light-gray);
+  color: var(--invert-font-color);
+}
+
+.sub-heading {
+  margin-top: 25px;
+  font-size: 24px;
+}
+
+.partners-swiper {
+  width: 100%;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.partners__link {
+  display: inline-block;
+  margin: 0;
+  min-height: 150px;
+  width: 450px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  outline: 1px solid var(--light-gray);
+}
+
+.partners__link:hover {
+  outline: 1px solid var(--hover-purple-color);
+}
+
+.Freelands {
+  background-image: url('../img/freelands.svg');
+}
+
+.IfCA {
+  background-image: url('../img/IfCA.svg');
+}
+
+.workhouse {
+  background-image: url('../img/Workhouse.svg');
+}
+
+.wine1849 {
+  background-image: url('../img/1849.svg');
+}
+
+.hiscox {
+  background-image: url('../img/hiscox.svg');
+}
+
+.camden {
+  background-image: url('../img/camden.svg');
+}
+
+.stassen {
+  background-image: url('../img/stassen.svg');
+}
+
+.wgav {
+  background-image: url('../img/wgav.svg');
+}
+
+.esad {
+  background-image: url('../img/esad.svg');
+}
+
+.projects .swiper-wrapper {
+  margin-top: 27px;
+  padding-top: 0px;
+  width: 100%;
+}
+
+.projects .swiper-slide {
+  max-width: 450px;
+}
+  
