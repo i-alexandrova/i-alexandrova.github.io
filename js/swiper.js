@@ -49,8 +49,9 @@ var mySwiper2 = new Swiper('.publish-swiper', {
 var mySwiper3 = new Swiper('.partners-swiper', {
   // Optional parameters
   slidesPerView: 3,
-      spaceBetween: 50,
-      slidesPerGroup: 3,
+  spaceBetween: 50,
+  watchSlidesProgress: true,
+  watchSlidesVisibility: true,
 
   // If we need pagination
   pagination: {

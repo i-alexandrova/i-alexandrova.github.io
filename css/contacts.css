@@ -1,11 +1,14 @@
 .contacts-container {
   display: flex;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .contacts__info {
-  width: 680px;
-  padding: 105px 0 120px 160px;
+  width: 35.7%;
+  padding: 129px 0 120px 160px;
   outline: 1px solid var(--light-gray);
+  outline-offset: -2px;
 }
 
 .contacts__address {
@@ -20,7 +23,7 @@
   flex-direction: column;
   justify-content: space-between;
   max-width: 400px;
-  min-height: 225px;
+  min-height: 228px;
 }
 
 .contacts__sub-heading {
@@ -92,7 +95,7 @@
 }
 
 #map {
-  width: 1200px;
+  width: 64.3%;
   height: 700px;
 }
 

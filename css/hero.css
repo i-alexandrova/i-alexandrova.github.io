@@ -1,6 +1,6 @@
 .hero {
   min-height: 700px;
-  padding-top: 142px;
+  padding-top: 141px;
   background: url('../img/birmingham-museums-trust-MK_98NuC4-4-unsplash2.jpg') no-repeat center -100px;
 }
 
@@ -10,15 +10,16 @@
 }
 
 .hero-heading {
-  margin-bottom: 19px;
+  margin-bottom: 20px;
+  margin-left: -4px;
   font-size: 72px;
   font-weight: 700;
   line-height: 83px;
-  letter-spacing: 1.1px;
+  letter-spacing: 1.5px;
 }
 
 .hero-text {
-  margin-bottom: 91px;
+  margin-bottom: 94px;
   font-size: 18px;
   font-weight: 700;
   line-height: 30px;

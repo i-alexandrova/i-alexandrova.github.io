@@ -71,7 +71,7 @@ button {
 }
 
 .heading {
-  margin-left: -2px;
+  margin-left: -4px;
   margin-bottom: 23px;
   font-size: 48px;
   line-height: 1;
@@ -82,6 +82,6 @@ button {
 
 :focus {
   outline-color: var(--active-purple-color);
-  outline-style: auto;
+  outline-style: solid;
   outline-width: 1px;
 }

@@ -1,7 +1,7 @@
 .publish {
   padding-top: 91px;
   min-height: 766px;
-  background: url('../img/birmingham-museums-trust-MK_98NuC4-4-unsplash-4.jpg') no-repeat;
+  background: url('../img/birmingham-museums-trust-MK_98NuC4-4-unsplash-4.jpg') no-repeat center;
   color: var(--invert-font-color);
 }
 
